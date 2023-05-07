@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Ticket Booking - Booking</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body style="opacity:unset;">
+  <nav style="opacity:unset;" >
+    <h1 class="tic">MOVIE TICKET BOOKING</h1>
+    <ul >
+    
+      <a class="col"  href="index.html">Home</a> &nbsp;
+      <a class="col"href="booking.html">Booking</a>&nbsp;
+      <a class="col" href="now-showing.html">Now Showing</a>
+    <ul> <a class="colu" href="signin.html">Sign in</a></ul>
+    </ul>
+  </nav>
+  <main>
+    <section id="booking">
+      <h2 class="w">Booking</h2>
+      <form onsubmit="return validateForm()">
+        <div>
+          <p>Select a movie:</p>
+          <select id="movie" name="movie">
+            <option value="movie1">PS-2</option>
+            <option value="movie2">Leo</option>
+            <option value="movie3">Vaathi</option>
+          </select>
+        </div>
+        <div class="movie-theater">
+          <h2>Choose Your Seat</h2>
+          <div class="screen">Screen</div>
+          <div class="seats">
+            <div class="row">
+              <div class="seat">
+                <input type="checkbox" id="A1" />
+                <label for="A1">A1</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="A2" />
+                <label for="A2">A2</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="A3" />
+                <label for="A3">A3</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="A4" />
+                <label for="A4">A4</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="A5" />
+                <label for="A5">A5</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="A6" />
+                <label for="A6">A6</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="A7" />
+                <label for="A7">A7</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="A8" />
+                <label for="A8">A8</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="seat">
+                <input type="checkbox" id="B1" />
+                <label for="B1">B1</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="B2" />
+                <label for="B2">B2</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="B3" />
+                <label for="B3">B3</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="B4" />
+                <label for="B4">B4</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="B5" />
+                <label for="B5">B5</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="B6" />
+                <label for="B6">B6</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="B7" />
+                <label for="B7">B7</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="B8" />
+                <label for="B8">B8</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="seat">
+                <input type="checkbox" id="C1" />
+                <label for="C1">C1</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="C2" />
+                <label for="C2">C2</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="C3" />
+                <label for="C3">C3</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="C4" />
+                <label for="C4">C4</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="C5" />
+                <label for="C5">C5</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="C6" />
+                <label for="C6">C6</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="C7" />
+                <label for="C7">C7</label>
+              </div>
+              <div class="seat">
+                <input type="checkbox" id="C8" />
+                <label for="C8">C8</label>
+              </div>
+            </div>
+          </div>
+          <button>Book Now</button>
+        </div> 
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Movie Ticket Booking. All rights reserved.</p>
+  </footer>
+</body>
+</html>
